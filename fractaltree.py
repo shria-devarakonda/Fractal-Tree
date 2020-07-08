@@ -6,6 +6,7 @@ wn.title("Fractal Tree")
 t = tu.Turtle()
 t.left(90)
 t.speed(0)
+t.color("white")
 
 def draw(len):
     if len<10:
@@ -19,6 +20,6 @@ def draw(len):
         t.left(30)
         t.backward(len)
 
-draw(int(input("What length do you require for your fractal tree(Suggested range: 20 to 100)?")))
+draw(100)
 
 tu.mainloop()
