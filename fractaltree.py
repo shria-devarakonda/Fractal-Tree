@@ -19,6 +19,6 @@ def draw(len):
         t.left(30)
         t.backward(len)
 
-draw(100)
+draw(int(input("What length do you require for your fractal tree(Suggested range: 20 to 100)?")))
 
 tu.mainloop()
